@@ -1,0 +1,6 @@
+version: '3'
+services:
+  inventory:
+    build: ./inventory_service
+    ports:
+      - "5001:5001"
